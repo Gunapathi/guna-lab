@@ -1,0 +1,5 @@
+# Real WiFi credentials. Copy secrets-dummy.h to secrets.h and fill it in.
+secrets.h
+
+# Private notes
+spec.md
