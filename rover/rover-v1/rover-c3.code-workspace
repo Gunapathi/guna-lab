@@ -1,0 +1,16 @@
+{
+  // Open this file in VS Code (File > Open Workspace from File). PlatformIO only finds a project
+  // whose platformio.ini sits at the top of a workspace folder, so firmware/ is its own folder
+  // here; add { "path": "app" } when the phone app exists (spec/core/build.md#vs-code).
+  "folders": [
+    { "name": "rover-c3", "path": "." },
+    { "name": "firmware", "path": "firmware" }
+  ],
+  "settings": {
+    "files.exclude": { "**/.pio": true },
+    "platformio-ide.disablePIOHomeStartup": true
+  },
+  "extensions": {
+    "recommendations": ["platformio.platformio-ide"]
+  }
+}

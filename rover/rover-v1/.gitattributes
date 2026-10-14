@@ -1,0 +1,4 @@
+# Normalise line endings in the repo; scripts stay LF so they run anywhere.
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
