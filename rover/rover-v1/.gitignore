@@ -1,0 +1,20 @@
+# ---------- Rover C3 ----------
+# Untracked build output that shows up in `git status` is how a real change gets missed, so
+# every tool's output folder is listed here.
+
+# PlatformIO (firmware/)
+firmware/.pio/
+firmware/.vscode/.browse.c_cpp.db*
+firmware/.vscode/c_cpp_properties.json
+firmware/.vscode/launch.json
+firmware/.vscode/ipch
+
+# Flutter (app/, from M4): add the template's own .gitignore inside app/ when it's created
+
+# Tools and editors
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
+# Per-machine Claude Code permissions; project-wide settings go in settings.json.
+.claude/settings.local.json
